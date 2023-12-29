@@ -27,3 +27,20 @@ body {
 .parent .boxWrapper:last-child {
   border-radius: 0 8px 8px 0;
 }
+@media screen and (width < 376px) {
+  .boxWrapper {
+    width: 327px;
+    height: 442px;
+  }
+  .parent {
+    flex-direction: column;
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+  .parent .boxWrapper:first-child {
+    border-radius: 8px 8px 0 0;
+  }
+  .parent .boxWrapper:last-child {
+    border-radius: 0 0 8px 8px;
+  }
+}
