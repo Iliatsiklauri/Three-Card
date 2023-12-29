@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Josefin+Sans&family=Karla:ital@0;1&family=Kumbh+Sans&family=Lexend+Deca&family=Montserrat&family=Outfit&family=Poppins&family=Red+Hat+Text&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Josefin+Sans&family=Karla:ital@0;1&family=Kumbh+Sans&family=Lexend+Deca&family=Montserrat&family=Outfit&family=Poppins&family=Red+Hat+Text&family=Space+Mono&display=swap');
+h1 {
+  color: #f2f2f2;
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.content {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  width: 212px;
+  opacity: 0.75;
+}
+img {
+  width: 64px;
+  height: 40px;
+}

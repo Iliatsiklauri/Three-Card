@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.boxWrapper {
+  display: flex;
+  padding-left: 48px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.parent .boxWrapper:first-child {
+  border-radius: 8px 0 0 8px;
+}
+.parent .boxWrapper:last-child {
+  border-radius: 0 8px 8px 0;
+}

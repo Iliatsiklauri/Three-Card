@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla:ital@0;1&family=Kumbh+Sans&family=Lexend+Deca&family=Montserrat&family=Outfit&family=Poppins&family=Red+Hat+Text&family=Space+Mono&display=swap');
+.learn-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 146px;
+  height: 48px;
+  background: #f2f2f2;
+  border-radius: 25px;
+}
+.learn-more p {
+  /* color: red; */
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
