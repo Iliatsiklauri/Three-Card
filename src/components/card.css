@@ -16,7 +16,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 166.667% */
-  width: 212px;
+  width: 213px;
   opacity: 0.75;
 }
 img {
@@ -29,4 +29,3 @@ img {
 .btn:hover {
   background: transparent;
 }
-
